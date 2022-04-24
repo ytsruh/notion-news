@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Bodoni&display=swap");
+@import "_colours";
+
+// Include any default variable overrides here (though functions won't be available)
+// List of all variables https://github.com/twbs/bootstrap/blob/v5.1.3/scss/_variables.scss
+
+@import "~bootstrap/scss/bootstrap";
+
+// Then add additional custom code here
+* {
+  font-family: "Libre Bodoni", serif !important;
+}
+
+main {
+  min-height: 80vh;
+}

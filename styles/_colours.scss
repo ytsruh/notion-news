@@ -1,0 +1,40 @@
+$white: #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #ddd !default;
+$gray-300: #ccc !default;
+$gray-400: #bbb !default;
+$gray-500: #adb5bd !default;
+$gray-600: #777 !default;
+$gray-700: #444 !default;
+$gray-800: #373a3c !default;
+$gray-900: #212529 !default;
+$black: #000 !default;
+
+$blue: #007bff !default;
+$indigo: #6610f2 !default;
+$purple: #9b479f !default;
+$pink: #e83e8c !default;
+$red: #d9230f !default;
+$orange: #d9831f !default;
+$yellow: #ffc107 !default;
+$green: #469408 !default;
+$teal: #20c997 !default;
+$cyan: #029acf !default;
+
+$charcoal: #424b54 !default;
+$pewter: #93a8ac !default;
+$burgundy: #780116 !default;
+$flame: #d8572a !default;
+$gold: #f9c784 !default;
+$crayola: #ffd07b !default;
+
+$primary: $charcoal !default;
+$secondary: $pewter !default;
+$success: $burgundy !default;
+$info: $gold !default;
+$warning: $crayola !default;
+$danger: $flame !default;
+$light: $gray-100 !default;
+$dark: $gray-900 !default;
+
+$min-contrast-ratio: 2.8 !default;
