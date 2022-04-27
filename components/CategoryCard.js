@@ -11,7 +11,9 @@ export default function CategoryCard() {
             This is a longer card with supporting text below as a natural lead-in to additional content. This
             content is a little bit longer.
           </Card.Text>
-          <Button className="px-3">Continue Reading...</Button>
+          <Button className="px-3" href="/article/1">
+            Continue Reading...
+          </Button>
         </Card.Body>
       </Card>
     </Col>

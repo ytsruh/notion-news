@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { useRouter } from "next/router";
 import React from "react";
 import Masonry from "react-masonry-css";
 import { Container, Row, Col } from "react-bootstrap";
@@ -23,12 +24,17 @@ const breakpointColumnsObj = {
 };
 
 export default function Category() {
+  const router = useRouter();
+  const { category } = router.query;
   return (
     <div>
       <Head>
-        <title>Category | Notion News</title>
+        <title>{category} News | Notion News</title>
       </Head>
       <Container fluid="md px-3">
+        <h1 className="fs-2 text-capitalize text-center border-bottom border-primary pb-2 mt-4">
+          {category}
+        </h1>
         <Masonry
           breakpointCols={breakpointColumnsObj}
           className="masonry-grid"

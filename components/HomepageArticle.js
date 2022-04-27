@@ -22,7 +22,7 @@ const HomepageArticle = () => (
       This is some additional paragraph placeholder content. It's a slightly shorter version of the other
       highly repetitive body text used throughout.
     </p>
-    <Button variant="primary px-4" href="/article">
+    <Button variant="primary px-4" href="/article/1">
       Continue Reading...
     </Button>
   </article>

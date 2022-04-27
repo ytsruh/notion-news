@@ -21,7 +21,7 @@ export default function Home() {
                     about what’s most interesting in this post’s contents.
                   </p>
                   <p className="lead mb-0">
-                    <a href="#" className="fw-bold">
+                    <a href="/article/1" className="fw-bold">
                       Continue reading...
                     </a>
                   </p>
@@ -43,9 +43,7 @@ export default function Home() {
                 <p className="card-text mb-auto">
                   This is a wider card with supporting text below as a natural lead-in to additional content.
                 </p>
-                <a href="#" className="">
-                  Continue reading
-                </a>
+                <a href="/article/1">Continue reading</a>
               </Col>
               <Col className="d-none d-lg-block">
                 <Image fluid src="https://via.placeholder.com/300" className="featured-card-img" alt="" />
@@ -61,9 +59,7 @@ export default function Home() {
                 <p className="mb-auto">
                   This is a wider card with supporting text below as a natural lead-in to additional content.
                 </p>
-                <a href="#" className="">
-                  Continue reading
-                </a>
+                <a href="/article/1">Continue reading</a>
               </Col>
               <Col className="d-none d-lg-block">
                 <Image fluid src="https://via.placeholder.com/300" className="featured-card-img" alt="" />

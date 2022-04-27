@@ -24,7 +24,11 @@ const Footer = () => (
               </a>
             </li>
             <li>
-              <a href="" className="text-white text-decoration-none">
+              <a
+                href="https://github.com/ytsruh/notion-news"
+                target="_blank"
+                className="text-white text-decoration-none"
+              >
                 Github
               </a>
             </li>

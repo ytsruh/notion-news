@@ -3,7 +3,7 @@ const { Client } = require("@notionhq/client");
 
 // Initializing a client
 const notion = new Client({
-  auth: `secret_GJrx4MppwEYAaXjFg0XXPTQ98nGT3I6QKRaiKUuoi1Q`,
+  auth: process.env.NOTION_TOKEN,
 });
 
 export default async function handler(req, res) {
