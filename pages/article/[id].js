@@ -18,7 +18,7 @@ export default function Article() {
             <h1 className="article-headline fw-bold">Article Headline</h1>
             <p className="my-2 fs-3">December 14, 2020</p>
             <hr className="bg-primary mx-5" />
-            <div class="article-body mx-5 pb-5">
+            <div className="article-body mx-5 pb-5">
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sed adipisci quaerat eveniet at
                 facilis minima earum quibusdam deserunt ratione aut impedit explicabo nihil molestias omnis

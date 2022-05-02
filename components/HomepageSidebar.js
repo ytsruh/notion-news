@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const HomepageSidebar = () => (
   <div className="position-sticky" style={{ top: "2rem", marginBottom: "2rem" }}>
     <div className="p-4 mb-3 bg-primary text-white rounded">
@@ -11,16 +13,24 @@ const HomepageSidebar = () => (
       <h4 className="fst-italic">Categories</h4>
       <ol className="list-unstyled">
         <li>
-          <a href="/world">World</a>
+          <Link href="/world">
+            <a>World</a>
+          </Link>
         </li>
         <li>
-          <a href="/business">Business</a>
+          <Link href="/business">
+            <a>Business</a>
+          </Link>
         </li>
         <li>
-          <a href="/sports">Sports</a>
+          <Link href="/sports">
+            <a>Sports</a>
+          </Link>
         </li>
         <li>
-          <a href="/science">Science</a>
+          <Link href="/science">
+            <a>Science</a>
+          </Link>
         </li>
       </ol>
     </div>
@@ -28,19 +38,25 @@ const HomepageSidebar = () => (
       <h4 className="fst-italic">Our Partners</h4>
       <ol className="list-unstyled">
         <li>
-          <a className="text-white" href="https://github.com/" target="_blank">
-            GitHub
-          </a>
+          <Link href="https://github.com/">
+            <a target="_blank" rel="noreferrer" className="text-white">
+              Github
+            </a>
+          </Link>
         </li>
         <li>
-          <a className="text-white" href="https://twitter.com/" target="_blank">
-            Twitter
-          </a>
+          <Link href="https://twitter.com/">
+            <a target="_blank" rel="noreferrer" className="text-white">
+              Twitter
+            </a>
+          </Link>
         </li>
         <li>
-          <a className="text-white" href="https://facebook.com" target="_blank">
-            Facebook
-          </a>
+          <Link href="https://facebook.com">
+            <a target="_blank" rel="noreferrer" className="text-white">
+              Facebook
+            </a>
+          </Link>
         </li>
       </ol>
     </div>

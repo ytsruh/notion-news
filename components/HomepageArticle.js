@@ -9,8 +9,8 @@ const HomepageArticle = () => (
     </Badge>
     <p>
       This is some additional paragraph placeholder content. It has been written to fill the available space
-      and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the
-      demonstration flowing, so be on the lookout for this exact same string of text.
+      and show how a longer snippet of text affects the surrounding content. We&apos;ll repeat it often to
+      keep the demonstration flowing, so be on the lookout for this exact same string of text.
     </p>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio dolore, corporis eligendi aspernatur non
@@ -19,7 +19,7 @@ const HomepageArticle = () => (
       Reiciendis magnam quibusdam enim, officiis dolor vel!
     </p>
     <p>
-      This is some additional paragraph placeholder content. It's a slightly shorter version of the other
+      This is some additional paragraph placeholder content. It&apos;s a slightly shorter version of the other
       highly repetitive body text used throughout.
     </p>
     <Button variant="primary px-4" href="/article/1">
