@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Footer = () => (
   <footer className="bg-primary text-light pt-4">
     <div className="container-fluid text-center text-md-left">
@@ -14,19 +16,21 @@ const Footer = () => (
           <h5 className="text-secondary">Links</h5>
           <ul className="list-unstyled">
             <li>
-              <a href="/" className="text-white text-decoration-none">
-                Homepage
-              </a>
+              <Link href="/">
+                <a className="text-white text-decoration-none">Homepage</a>
+              </Link>
             </li>
             <li>
-              <a href="/about" className="text-white text-decoration-none">
-                About
-              </a>
+              <Link href="/about">
+                <a className="text-white text-decoration-none">About</a>
+              </Link>
             </li>
             <li>
-              <a href="" className="text-white text-decoration-none">
-                Github
-              </a>
+              <Link href="https://github.com/ytsruh/notion-news">
+                <a target="_blank" rel="noreferrer" className="text-white text-decoration-none">
+                  Github
+                </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -35,9 +39,11 @@ const Footer = () => (
 
     <div className="text-center text-secondary py-3">
       © 2020 Copyright:{" "}
-      <a href="https://www.ytsruh.com" target="_blank" className="text-white">
-        ytsruh
-      </a>
+      <Link href="https://www.ytsruh.com">
+        <a target="_blank" rel="noreferrer" className="text-white">
+          ytsruh
+        </a>
+      </Link>
     </div>
   </footer>
 );

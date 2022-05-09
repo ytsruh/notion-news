@@ -12,19 +12,19 @@ export default function Home() {
       </Navbar>
       <Navbar bg="primary" variant="dark">
         <Nav className="mx-auto">
-          <Nav.Link href="#link" className="px-2 px-md-5">
+          <Nav.Link href="/" className="px-2 px-md-5">
+            Home
+          </Nav.Link>
+          <Nav.Link href="/world" className="px-2 px-md-5">
             World
           </Nav.Link>
-          <Nav.Link href="#home" className="px-2 px-md-5">
+          <Nav.Link href="/business" className="px-2 px-md-5">
             Business
           </Nav.Link>
-          <Nav.Link href="#link" className="px-2 px-md-5">
+          <Nav.Link href="/sports" className="px-2 px-md-5">
             Sports
           </Nav.Link>
-          <Nav.Link href="#link" className="px-2 px-md-5">
-            Travel
-          </Nav.Link>
-          <Nav.Link href="#link" className="px-2 px-md-5">
+          <Nav.Link href="/science" className="px-2 px-md-5">
             Science
           </Nav.Link>
         </Nav>
