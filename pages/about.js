@@ -20,7 +20,7 @@ export default function About() {
                 Whilst relatively simple to set up and maintain, Notion is not a CMS and should not be used as
                 one. There are plenty of purpose built CMS that can and should be used instead of Notion.
               </p>
-              <p class="my-3">
+              <p className="my-3">
                 If this project was to be implemented for anything other than a hobby, it should be scrapped
                 and started again. Notion is a fantastic for taking notes, managing tasks & working in teams,
                 but managing content for a website is not one of its strongest points.
